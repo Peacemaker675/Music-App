@@ -1,2 +1,2 @@
 A basic music app
-i do not own the music files and niether the images they belong to thier respective owners
+this repo only includes the code files and doesn't include the required music files and image files because i do not own them
