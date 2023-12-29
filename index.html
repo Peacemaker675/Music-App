@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Music app</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3574c1443d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+  <div class="box">
+    <div class="songMenu">
+    <button class="cross"><i class="fa-solid fa-x"></i></button>
+    <h1 class="playlist">PlayList</h1>
+    <div class="songList"></div>
+  </div>
+    
+  <audio class="audio" src="/Music/Attention.mp3"></audio>
+  <div class="Container">
+    <div class="header">
+      <i class="fa-solid fa-music"></i>
+     <button class="menuBtn"> <i class="fa-solid fa-bars"></i></button>
+     
+      
+    </div>
+    <div class="image">
+      <img class="img" src="/Img/Attention.jpeg">
+      <div class="songInfo"></div>
+      
+       
+    </div>
+    <div class="scrollBar">
+      <input type="range" id="scrlbar">
+     
+      
+    </div>
+    <div class="playBtns">
+       <button class="backward"><i class="fa-solid fa-backward-step"></i></button>
+       <button class="play"><i id="control" class="fa-solid fa-play"></i></button>
+       <button class="forward"><i class="fa-solid fa-forward-step"></i></button>
+      
+    </div>
+    
+  </div>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
